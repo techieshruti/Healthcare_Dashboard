@@ -12,7 +12,7 @@ import {
 export default function Sidebar({ className = "", onShowToast }) {
   const handleMenuClick = (implemented) => {
     if (!implemented) {
-      onShowToast("wo rasta abhi band hai")
+      onShowToast("Sidebar")
     }
   }
 
