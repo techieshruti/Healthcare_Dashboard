@@ -1,6 +1,6 @@
 # 🩺 Healthcare Dashboard
 
-A modern, minimal **Healthcare Dashboard** built using **React**, **Vite**, **Tailwind CSS**, and **Lucide React Icons**. This project visualizes key health metrics in a clean, interactive interface — perfect for practice, portfolio, or real-world healthcare admin use cases.
+A **static**, clean, and minimal **Healthcare Dashboard** web page built using **React**, **Vite**, **Tailwind CSS**, and **Lucide React Icons**. This project serves as a simple demonstration of a healthcare admin dashboard layout.
 
 ## 🔗 Live Demo
 
@@ -8,25 +8,25 @@ A modern, minimal **Healthcare Dashboard** built using **React**, **Vite**, **Ta
 
 ## 📌 Features
 
-- ✅ Clean and responsive design with Tailwind CSS
-- ✅ Interactive UI built with React
-- ✅ Dashboard layout with reusable components
-- ✅ Fast development with Vite
-- ✅ Lucide React icons for sharp visuals
-- ✅ Proper GitHub Pages deployment
+- ✅ Static dashboard layout with key health metrics
+- ✅ Built with React components for modularity
+- ✅ Styled with Tailwind CSS (non-responsive)
+- ✅ Fast build and development with Vite
+- ✅ Crisp icons from Lucide React
+- ✅ Hosted on GitHub Pages
 
 ## 🚀 Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
-| **React** | UI components |
-| **Vite** | Lightning-fast dev server and build tool |
-| **Tailwind CSS** | Utility-first styling |
-| **Lucide React** | Icon library |
-| **GitHub Pages** | Hosting and deployment |
+| **React** | UI structure |
+| **Vite** | Build tool and dev server |
+| **Tailwind CSS** | Styling framework |
+| **Lucide React** | Icons |
+| **GitHub Pages** | Deployment |
 
 ## 📂 Project Structure
-
+```
 Healthcare_Dashboard/
 ├── public/
 │ └── images/ # Static assets (e.g., anatomy image)
@@ -38,24 +38,27 @@ Healthcare_Dashboard/
 ├── .eslintrc.cjs # ESLint config
 ├── vite.config.js # Vite config with GitHub Pages base path
 ├── package.json # Project metadata and scripts
+```
+
+## 📸 Screenshot
+![App Screenshot](public/images/capture.png "Screenshot of the app")
 
 
 ## 🛠️ Getting Started Locally
-
-### 1. Clone the repo
+```
+1. Clone the repo
 ```bash
 git clone https://github.com/techieshruti/Healthcare_Dashboard.git
 cd Healthcare_Dashboard
 
-### 2. Install dependencies
+2. Install dependencies
 npm install
 
-### 3. Run the development server
+3. Run the development server
 npm run dev
 
-### 4. Build & Deploy
-To build and deploy your project to GitHub Pages:
+4. Build & Deploy
 npm run build
 npm run deploy
+```
 
-  ## Screenshots
