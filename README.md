@@ -41,7 +41,7 @@ Healthcare_Dashboard/
 ```
 
 ## 📸 Screenshot
-![App Screenshot](public/images/capture.png "Screenshot of the app")
+![App Screenshot](/public/images/capture.png "Screenshot of the app")
 
 
 ## 🛠️ Getting Started Locally
