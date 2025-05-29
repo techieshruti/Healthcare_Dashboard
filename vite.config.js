@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-base: '/Healthcare_Dashboard/',
+  base: '/Healthcare_Dashboard/',
   plugins: [
     react(),
     tailwindcss()
